@@ -11,6 +11,7 @@ public class Macro1 {
     	user.calculateTDEE();			// behind the scenes calculate TDEE and assign to the user object
     	
     	System.out.println("Your basal metabolic rate is " + user.toString(Math.round(user.BMR)) + " calories/day" );
+    	System.out.println();
     	System.out.println("\nYour Total Daily Energy Expenditure(TDEE) is " + user.toString(Math.round(user.TDEE)) + 
     					   " calories/ day");
       }}
